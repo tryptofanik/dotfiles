@@ -1,0 +1,9 @@
+[user]
+    name = Albert Roethel
+    email = albert@inceptive.team
+[credential "https://github.com"]
+    helper = !/usr/bin/gh auth git-credential
+[diff]
+    guitool = vscode
+[difftool "vscode"]
+    cmd = code --wait --diff $LOCAL $REMOTE
